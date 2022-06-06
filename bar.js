@@ -1,7 +1,6 @@
 //elemen div dengan id test, container elemen html
-BAR1 = document.getElementById('barplot1');
+
 BAR2 = document.getElementById('barplot2');
-BAR2 = document.getElementById('barplot3');
 
 //data pada plot untuk absis-x dan ordinat-y
 var data1 = [
@@ -17,8 +16,6 @@ var data1 = [
   },
 ];
 
-Plotly.newPlot('barplot1', data1);
 Plotly.newPlot('barplot2', data1);
-Plotly.newPlot('barplot3', data1);
 
 var config = { responsive: true };

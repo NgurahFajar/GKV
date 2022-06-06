@@ -1,5 +1,6 @@
 body {
   padding: 0;
+  /* background-color: #202124; */
   /* background-color: ; */
 }
 
@@ -15,7 +16,7 @@ h1 {
   font: 'arial';
   font-size: 24px;
   color: white;
-  background-color: black;
+  background-color: #263238;
 }
 
 .totaldeath p {
@@ -25,7 +26,7 @@ h1 {
   font: 'arial';
   font-size: 24px;
   color: white;
-  background-color: black;
+  background-color: #263238;
 }
 
 .totalrecovered p {
@@ -35,19 +36,20 @@ h1 {
   font: 'arial';
   font-size: 22px;
   color: white;
-  background-color: black;
+  background-color: #263238;
 }
 #Line1 {
+  margin-top: 10%;
+  width: 40%;
+  margin-left: 280px;
+  display: inline-block;
+  background-color: #263238;
+}
+/* #barplot1 {
   margin-top: 0%;
   width: 40%;
-  margin-left: 200px;
   display: inline-block;
-}
-#barplot1 {
-  margin-top: 0%;
-  width: 40%;
-  display: inline-block;
-}
+} */
 
 #barplot2 {
   margin-top: 5%;
@@ -78,18 +80,24 @@ h1 {
 }
 
 #div1 {
-  width: 320px;
-  height: 80px;
+  margin-top: 0%;
+  margin-left: 100px;
+  width: 400px;
+  height: 280px;
   overflow: auto;
+  display: inline-block;
+  background-color: #263238;
 }
 
 #table1 {
-height: 200px;
-width: 30%;
-margin: auto;
-border-collapse: collapse;
+  height: 400px;
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
 }
-td,th {
-  border: 1px solid black;
+td,
+th {
+  border: 1px solid white;
+  color: white;
   padding: 5px;
 }

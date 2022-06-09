@@ -1,18 +1,20 @@
 body {
   padding: 0;
+  background-color: #263238;
   /* background-color: #202124; */
   /* background-color: ; */
 }
 
 h1 {
   text-align: center;
+  color: white;
 }
 
 .totalcases p {
   margin-top: 10%;
   margin-left: 45%;
   width: 150px;
-  border: 1px solid black;
+  border: 1px solid white;
   font: 'arial';
   font-size: 24px;
   color: white;
@@ -26,6 +28,7 @@ h1 {
   font: 'arial';
   font-size: 24px;
   color: white;
+  border: 1px solid white;
   background-color: #263238;
 }
 
@@ -36,6 +39,7 @@ h1 {
   font: 'arial';
   font-size: 22px;
   color: white;
+  border: 1px solid white;
   background-color: #263238;
 }
 #Line1 {
